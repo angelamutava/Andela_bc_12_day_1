@@ -48,7 +48,8 @@ class Car(object):
   """
   this method tests whether the object passed to it is of type car
   """   
-  def drive_car(self, car_object):
+  def drive_car(self, car_object = None):
     if isinstance(car_object, Car):
       return car_object
-    return "The car drive function should return the instance of the Car class"  
+    elif car_object is None:
+      return None  
