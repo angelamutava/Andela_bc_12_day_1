@@ -16,6 +16,8 @@ class Car(object):
       self.car_name = "General"
     else:
       self.car_name = car_name
+
+  """setters and getters for the attributes"""    
     
   def set_car_type(self, car_type):
     self.car_type = car_type
@@ -31,8 +33,7 @@ class Car(object):
   for porsche and koenigsegg it will return 4
   else 
   """  
-
-   def car_doors(self):
+  def car_doors(self):
      if self.car_type != "porshe" or "Koenigsegg":
        return 4
      return 2
@@ -52,4 +53,11 @@ class Car(object):
     if isinstance(car_object, Car):
       return car_object
     elif car_object is None:
-      return None  
+      return None
+
+  """ This is a method that checks the type being saloon car""" 
+  def is_saloon(self, number):
+    if self.car_type =="saloon":
+      return True
+    return False  
+
