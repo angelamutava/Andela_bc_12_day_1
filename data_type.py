@@ -1,4 +1,11 @@
 def data_type(argument):
+  """
+  this is a function that checks the type of argument passed and for a given type perfoms the given task
+  string:return the length of the string
+  bool:return the boolean
+  int :checks whether the value passed is less,equal or more than 100 and returns appropriate message
+  list returns the third element in the list
+  """
   if isinstance(argument, str):
     return len(argument)
   elif argument is None:
