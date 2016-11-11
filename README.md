@@ -36,6 +36,24 @@ True
 no value
 less than 100
 ```
-##Car class
-This is a class that defines some properties for a car and and various methods.
+## Car class
+This is a class that defines some properties of a car and and various methods.The  methods  complement the car functionalities.
+
+##Real world scenario
+## Children class
+This is a class that will be defined as guide to young parents on various behaviours that children exhibit as they grow up.
+
+##Tests 
+To demonstrate TDD every function and class has been defined with  its corresponding tests.
+
+##Guide 
+Clone the given repository
+######clone
+ $ git clone https://github.com/anonymousme/Andela_bc_12_day_1
+ From the right directory you can run the python files using the command python fizzbuzz.py
+
+##Pending Issues
+Still working on the car class and the real world scenario.
+
+
 
