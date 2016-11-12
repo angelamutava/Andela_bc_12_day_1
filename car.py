@@ -7,26 +7,17 @@ class Car(object):
  """
   def __init__(self, car_type = None , car_model = None, car_name =None ):
     self.car_type = car_type
+    self.speed = 0
     
     if car_model is None:
       self.car_model = "GM"
-    else:  
+    else:
       self.car_model = car_model
-    if car_name is None :
+    if car_name is None:
       self.car_name = "General"
     else:
       self.car_name = car_name
 
-  """setters and getters for the attributes"""    
-    
-  def set_car_type(self, car_type):
-    self.car_type = car_type
-    
-  def set_car_model(self, car_model):
-    self.car_model = car_model
-    
-  def set_car_name(self, car_name):
-    self.car_name = car_name
     
   """ 
   this method returns the number of doors 
@@ -49,15 +40,28 @@ class Car(object):
   """
   this method tests whether the object passed to it is of type car
   """   
-  def drive_car(self, car_object = None):
-    if isinstance(car_object, Car):
-      return car_object
-    elif car_object is None:
-      return None
+  def drive(self, number):
+    if self.car_type = "trailer":
+      if number == 7:
+        self.speed = 77
+        return self
+      if number <= 1 and number <= 7:
+        self.speed = 30
+        return self
+      if number > 7:
+        self.speed = 0
+        return self
+    else:
+      if number >= 1:
+        self.speed = 1000
+        return self
+  return self        
 
-  """ This is a method that checks the type being saloon car""" 
+""" This is a method that checks the type being saloon car""" 
   def is_saloon(self, number):
-    if self.car_type =="saloon":
+    if self.car_type == "saloon":
       return True
     return False  
+
+
 
