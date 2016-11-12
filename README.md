@@ -53,7 +53,8 @@ Clone the given repository
  $ git clone https://github.com/anonymousme/Andela_bc_12_day_1
  From the right directory you can run the python files using the command python fizzbuzz.py
 
-
+#Pending Issues
+The car class not working appropriately. 
 
 
 
