@@ -37,8 +37,8 @@ class Lecturer(StaffMember):
         self.courses_taught.append(course)
 
 
-jane = Student("Jon", "Doe", "xyzthf")
-jane.enrol("Introduction to computer programming")
+john = Student("John", "Doe", "xyzthf")
+john.enrol("Introduction to computer programming")
 
-bob = Lecturer("Bob", "Jones", "29695896")
-bob.assign_teaching("Mathematics for dummies")
+angie = Lecturer("Angela", "Mutava", "29695896")
+angie.assign_teaching("Mathematics for dummies")
